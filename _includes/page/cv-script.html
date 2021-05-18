@@ -1,0 +1,13 @@
+<script type="text/javascript">
+    (function(d, anchorId) {
+      setTimeout(function() { 
+            var dataRa = [99, 74, 84, 50, 101, 74, 79, 56, 78, 123, 59, 117, 78, 111, 92, 51, 101, 111, 110, 120, 78, 111, 51, 110, 78, 52, 80, 52, 78, 90, 80, 113, 100, 53, 76, 50, 78, 89, 88, 119, 92, 121, 63, 63];
+            var node = d.createElement("a");
+            node.setAttribute("href", atob(dataRa.map(function(x) { return String.fromCharCode(x-1-1); }).join('')) );
+            node.setAttribute("target", "_blank");
+            node.setAttribute("rel", "nofollow");
+            node.textContent = "... more here";
+            d.getElementById(anchorId).appendChild(node); 
+      }, 3000);
+    })(document, "worktext");
+</script>

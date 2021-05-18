@@ -1,0 +1,16 @@
+---
+layout: page
+title: Projects
+subtitle: Things I have worked on.
+description: 
+permalink: /projects
+sitemap:
+  priority: 0.9
+listed: false
+---
+
+<div class="card-columns">
+  {% for project in site.data.projects %}
+    {% include post/project_card.html %}
+  {% endfor %}
+</div>

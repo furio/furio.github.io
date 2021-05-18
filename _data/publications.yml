@@ -1,0 +1,27 @@
+- name: Topological computing of arrangements with (co)chains
+  url: https://l.furio.me/arxiv-top-cochain
+  where: ACM Trans. Spatial Algorithms and Systems
+- name: "Geometric Computing with Chain Complexes: Design and Features of a Julia Package"
+  url: https://l.furio.me/arxiv-julia-pkg
+  where: SOGEI
+- name: "LARLIB.jl: Solid Modeling in Julia"
+  url: https://juliacon2018.sched.com/event/FQ40/larlibjl-solid-modeling-in-julia
+  where: JuliaCon 2018
+- name: Api Godai
+  url: https://l.furio.me/api-godai
+  where: Programmable Web
+- name: Algebraic Mining of Solid Models From Images
+  url: https://l.furio.me/lar-esa
+  where: ESA-EUSC-JRC
+- name: Ingesting Clicks Data For Analytics
+  url: https://l.furio.me/aws-summit-milano-2016
+  where: AWS Summit Milano 2016
+- name: START SLAVE;
+  url: https://l.furio.me/start-slave
+  where: PiTech
+- name: CAD models from medical images using LAR
+  url: https://l.furio.me/lar-cadanda
+  where: Programmable Web
+- name: Ingesting Click events For Analytics
+  url: https://l.furio.me/data-driven-2016
+  where: Computer-Aided Design and Applications

@@ -1,0 +1,15 @@
+---
+layout: page
+title:
+subtitle: Things I've (co)wrote.
+description: A list of publication/slides for various confereneces/journals.
+permalink: /publications
+sitemap:
+  priority: 0.9
+---
+
+<div>
+  {% for publication in site.data.publications %}
+    {% include post/pub_card.html %}
+  {% endfor %}
+</div>
