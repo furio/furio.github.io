@@ -1,10 +1,13 @@
+{% if site.iubenda %}
 <script type='text/javascript'>
     var _iub = _iub || []; _iub.csConfiguration = {"enableCcpa":true,"countryDetection":true,"ccpaAcknowledgeOnDisplay":true,"whitelabel":false,"lang":"en","siteId":2048648,"cookiePolicyId":28077370,"enableCMP":true,"cookiePolicyUrl":"https://nibirumail.com/cookies/policy/?url=www.furio.me","privacyPolicyUrl":"https://www.privacypolicies.com/live/d48b9b96-5239-466a-87bf-1ae36f91b1db", "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"bottom" }};
 </script>
 
-<!--
 <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
 <script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
 <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
--->
+{% endif %}
+
+{% if site.trackingpixel %}
 <img height='0' width='0' alt='' src='https://pixel.watch/01uh' />
+{% endif %}
