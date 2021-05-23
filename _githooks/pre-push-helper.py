@@ -2,7 +2,7 @@ import sys
 from os import listdir
 from os.path import isfile, join
 
-if len(sys.argv) != 3:
+if len(sys.argv) < 3:
     print("Not enough args")
     exit(1)
 
