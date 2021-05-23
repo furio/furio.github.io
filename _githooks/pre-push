@@ -1,0 +1,14 @@
+#!/bin/sh
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+gitpath=$(git rev-parse --show-toplevel)
+python=$(which python || which python3)
+
+# a branch name where you want to prevent git push. In this case, it's "master"
+if [ "$branch" = "master" ]; then
+  missing=$($python $gitpath/_githooks/pre-push-helper.py $gitpath/pages/tags $gitpath/_posts)
+  if [ "$?" != "0" ]; then
+    echo "Missing tag page in pages/tags for: $missing"
+    exit 1
+  fi
+fi
