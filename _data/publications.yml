@@ -21,7 +21,10 @@
   where: PiTech
 - name: CAD models from medical images using LAR
   url: https://l.furio.me/lar-cadanda
-  where: Programmable Web
+  where: Computer-Aided Design and Applications
 - name: Ingesting Click events For Analytics
   url: https://l.furio.me/data-driven-2016
-  where: Computer-Aided Design and Applications
+  where: Data Driven Innovation 2016
+- name: Certifications
+  url: https://www.credly.com/users/francesco-furiani/badges
+  where: Various providers
