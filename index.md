@@ -19,6 +19,7 @@ graduated in [Computer Engineering](http://www.inf.uniroma3.it) 'cum laude' at [
 <br />
 I'm currently enjoying doing smth as Ops &amp; Cloud Consultant @ [World Food Programme](https://www.wfp.org/) <br />
 what i did:
+* Volunteer Trainer [#TF4WOMEN ITALIA 2001](https://techfugees.com/it/fellowship-tf4women/italy/) @ [Techfugees](https://techfugees.com/it/)
 * Fellow @ [CVDLAB](http://cvdlab.org/)
 * Head of Infrastructure @ [Translated](https://translated.com/)
 * Director of Cloud Engineering @ [Defenx](https://defenx.com/)
