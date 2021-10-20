@@ -23,8 +23,7 @@ what i did:
 * Fellow @ [CVDLAB](http://cvdlab.org/)
 * Head of Infrastructure @ [Translated](https://translated.com/)
 * Director of Cloud Engineering @ [Defenx](https://defenx.com/)
-* CTO @ [Clickmeter](https://www.clickmeter.com/)
-* CTO @ [Rebrandly](https://www.rebrandly.com/)
+* CTO @ [Clickmeter](https://www.clickmeter.com/) & [Rebrandly](https://www.rebrandly.com/)
 <br />
 <div id="worktext"></div>
 <br />
