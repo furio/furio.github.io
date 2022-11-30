@@ -1,0 +1,31 @@
+---
+layout: contacts
+title: Contacts
+subtitle: You can find me here.
+description: 
+permalink: /contacts
+sitemap:
+  priority: 0.9
+listed: false
+---
+
+{% if site.author.twitter %}
+You can find me on Twitter <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank"><i class="fab fa-twitter"></i></a>
+<br /> <br />
+{% endif %}
+
+{% if site.author.formkey %}
+You can send me a message via this form: <br />
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="{{ site.author.formkey }}">
+
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+    <button type="submit">Submit Form</button>
+
+</form>
+{% endif %}
