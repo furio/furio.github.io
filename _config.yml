@@ -17,6 +17,7 @@ author:
   twitter: ilfurio # Twitter username, used for Twitter Card Analytics 
   linkedin: # Your LinkedIn profile url name, used for LinkedIn icon on the top right
   email: # Used for email icon on the top right
+  formkey:  130697a0-a52e-4e0d-b637-165de0bc1fc1
 
 disqus_name: # Setting this will turn on Disqus comments
 g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
