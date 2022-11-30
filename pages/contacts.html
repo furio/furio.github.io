@@ -9,13 +9,33 @@ sitemap:
 listed: false
 ---
 
+{% if site.author.email %}
+Email: <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
+<i class="fas fa-envelope-square"></i>
+</a>
+<br /> <br />
+{% endif %}
+{% if site.author.github %}
+Github: <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+<br /> <br />
+{% endif %}
+{% if site.author.linkedin %}
+Linkedin: <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+<i class="fab fa-linkedin-in"></i>
+</a>
+<br /> <br />
+{% endif %}
 {% if site.author.twitter %}
-You can find me on Twitter <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank"><i class="fab fa-twitter"></i></a>
+Twitter: <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+<i class="fab fa-twitter"></i>
+</a>
 <br /> <br />
 {% endif %}
 
 {% if site.author.formkey %}
-You can send me a message via this form: <br />
+Send me a message via this form: <br />
 <form action="https://api.web3forms.com/submit" method="POST">
 
     <input type="hidden" name="access_key" value="{{ site.author.formkey }}">
