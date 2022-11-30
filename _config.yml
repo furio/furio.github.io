@@ -9,8 +9,8 @@ posts: true
 publications: true
 iubenda:
 trackingpixel: true
-# formkey: "130697a0-a52e-4e0d-b637-165de0bc1fc1"
-formkey:
+formkey: "130697a0-a52e-4e0d-b637-165de0bc1fc1"
+# formkey:
 
 author:
   name: Francesco
