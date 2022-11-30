@@ -34,11 +34,11 @@ Twitter: <a href="https://twitter.com/{{ site.author.twitter }}" class="social-l
 <br /> <br />
 {% endif %}
 
-{% if site.author.formkey %}
+{% if site.formkey %}
 Send me a message via this form: <br />
 <form action="https://api.web3forms.com/submit" method="POST">
 
-    <input type="hidden" name="access_key" value="{{ site.author.formkey }}">
+    <input type="hidden" name="access_key" value="{{ site.formkey }}">
 
     <input type="text" name="name" required>
     <input type="email" name="email" required>
