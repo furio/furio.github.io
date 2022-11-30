@@ -9,6 +9,8 @@ sitemap:
 listed: false
 ---
 
+<p>
+  
 {% if site.author.email %}
 Email: <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
 <i class="fas fa-envelope-square"></i>
@@ -42,11 +44,12 @@ Send me a message via this form: <br />
 
     Your name: <input type="text" name="name" required><br />
     Your email: <input type="email" name="email" required><br />
-    Your message: <br />
-    <textarea name="message" required></textarea><br />
+    Your message: <textarea name="message" required></textarea><br />
     <input type="hidden" name="redirect" value="https://web3forms.com/success"><br /><br />
 
     <button type="submit">Send the message</button>
 
 </form>
 {% endif %}
+
+</p>
