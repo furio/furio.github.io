@@ -40,12 +40,13 @@ Send me a message via this form: <br />
 
     <input type="hidden" name="access_key" value="{{ site.formkey }}">
 
-    <input type="text" name="name" required>
-    <input type="email" name="email" required>
-    <textarea name="message" required></textarea>
-    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+    Your name: <input type="text" name="name" required><br />
+    Your email: <input type="email" name="email" required><br />
+    Your message: <br />
+    <textarea name="message" required></textarea><br />
+    <input type="hidden" name="redirect" value="https://web3forms.com/success"><br /><br />
 
-    <button type="submit">Submit Form</button>
+    <button type="submit">Send the message</button>
 
 </form>
 {% endif %}
