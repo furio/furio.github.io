@@ -17,8 +17,9 @@ I am an alumni and fellow of [CVDLAB](http://cvdlab.org/), Departments of Comput
 graduated in [Computer Engineering](http://www.inf.uniroma3.it) 'cum laude' at [University of Rome "Roma Tre"](http://www.uniroma3.it/).
 <br />
 <br />
-I'm currently enjoying doing smth as Ops &amp; Cloud Consultant @ [World Food Programme](https://www.wfp.org/) <br />
+I'm currently enjoying doing smth as Cloud Architect @ [World Food Programme](https://www.wfp.org/) <br />
 what i did:
+* DevOps &amp; Cloud Engineer @ [World Food Programme](https://www.wfp.org/)
 * Volunteer Trainer [#TF4WOMEN ITALIA (2021)](https://techfugees.com/it/fellowship-tf4women/italy/) @ [Techfugees](https://techfugees.com/it/)
 * Fellow @ [CVDLAB](http://cvdlab.org/)
 * Head of Infrastructure @ [Translated](https://translated.com/)
