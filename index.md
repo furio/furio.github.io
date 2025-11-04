@@ -18,10 +18,10 @@ graduated in [Computer Engineering](http://www.inf.uniroma3.it) 'cum laude' at [
 <br />
 <br />
 I'm currently enjoying a break! <br />
-what i did:
+my last few gigs:
 * Cloud &amp; Integration Architect @ [World Food Programme](https://www.wfp.org/)
 * DevOps &amp; Cloud Engineer @ [World Food Programme](https://www.wfp.org/)
-* Volunteer Trainer [#TF4WOMEN ITALIA](https://techfugees.com/it/fellowship-tf4women/italy/) @ [Techfugees](https://techfugees.com/it/)
+* Volunteer Project Management Trainer [#TF4WOMEN ITALIA](https://techfugees.com/it/fellowship-tf4women/italy/) @ [Techfugees](https://techfugees.com/it/)
 <br />
 <div id="worktext"></div>
 <br />
