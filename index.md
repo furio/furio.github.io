@@ -25,3 +25,5 @@ my last few gigs:
 <br />
 <div id="worktext"></div>
 <br />
+
+{% include page/cv-script.html %}
